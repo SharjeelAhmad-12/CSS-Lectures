@@ -1,7 +1,6 @@
 # Lecture 1: Introduction to CSS – Styling the Web
 
 ## Overview:
-This first lecture will introduce students to CSS (Cascading Style Sheets), explaining its importance, how it interacts with HTML, and the basic building blocks that every web developer must know. By the end of this lecture, students will understand:
 
 1. What CSS is and why it's essential for web development.
 2. The difference between Inline, Internal, and External CSS.

@@ -1,0 +1,110 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F9F9FB;
+    color: #333;
+  }
+  h1, h2, h3 {
+    margin: 0;
+  }
+  section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1200px;
+  }
+  /* Header Styles */
+  #main-header {
+    background: linear-gradient(to right, #FF7F50, #FF6347);
+    color: white;
+    padding: 10px 0;
+  }
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  .nav-menu a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+  }
+  .nav-list{
+    display: flex;
+    list-style: none;
+  }
+  .nav-menu a:hover {
+    color: #FFE4E1;
+  }
+  /* About Section */
+  #about {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .about-text {
+    flex: 1;
+  }
+  .about-image img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+  }
+  /* Courses Section */
+  #courses .courses-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .course-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    flex: 1 1 calc(33.333% - 20px); /* Responsive three-column layout */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  .course-card h3 {
+    color: #FF6347;
+    margin-bottom: 10px;
+  }
+  .course-card p {
+    line-height: 1.6;
+    font-size: 16px;
+  }
+  /* Contact Section */
+  #contact .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  .contact-form button {
+    background-color: #FF6347;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  .contact-form button:hover {
+    background-color: #FF7F50;
+  }
+  
+  
+  
+  
+  
+  
+  
