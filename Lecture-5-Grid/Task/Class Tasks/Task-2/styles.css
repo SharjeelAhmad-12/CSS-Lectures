@@ -1,0 +1,108 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header */
+.header {
+    background-color: #ff6347; /* Tomato color */
+    color: white;
+    padding: 20px;
+    display: grid;
+    place-items: center; /* Centers content horizontally and vertically */
+}
+
+.restaurant-title {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.restaurant-tagline {
+    font-size: 20px;
+    font-style: italic;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #333;
+    display: grid;
+    justify-content: center;
+}
+
+.nav-list {
+    list-style-type: none;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-link {
+    color: white;
+    font-size: 18px;
+    padding: 15px 20px;
+}
+
+.nav-link:hover {
+    background-color: #ff6347;
+    color: white;
+}
+
+/* Menu Sections */
+.menu-section {
+    background-color: #fff;
+    padding: 30px 20px;
+}
+
+.section-title {
+    font-size: 32px;
+    color: #ff6347;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Menu Items */
+.menu-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid */
+    gap: 20px;
+    justify-content: center;
+}
+
+.menu-item {
+    text-align: left;
+    background-color: #f2f2f2;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: grid;
+    gap: 10px;
+}
+
+.item-name {
+    font-size: 22px;
+    color: #333;
+    font-weight: bold;
+}
+
+.item-description {
+    font-size: 16px;
+    color: #666;
+}
+
+.item-price {
+    font-size: 18px;
+    color: #ff6347;
+    font-weight: bold;
+}

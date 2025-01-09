@@ -1,0 +1,147 @@
+/* Global Styles */
+body {
+    display: grid;
+    grid-template-rows: auto 1fr auto; /* Header, Main Content, Footer */
+    grid-template-columns: 1fr; /* Single column layout */
+    min-height: 100vh;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+/* Header */
+.header {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 15px 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.user-menu {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logout-btn {
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.logout-btn:hover {
+    background-color: #ff4500;
+}
+
+/* Dashboard Container */
+.dashboard-container {
+    display: grid;
+    grid-template-columns: 250px 1fr; /* Sidebar + Main Content */
+    grid-gap: 20px;
+    padding: 20px;
+    height: 100%; /* Fill height */
+}
+
+/* Sidebar */
+.sidebar {
+    background-color: #444;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.sidebar-nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-link {
+    display: block;
+    padding: 10px;
+    background-color: #555;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.nav-link:hover {
+    background-color: #666;
+}
+
+/* Main Content */
+.main-content {
+    display: grid;
+    grid-template-columns: 1fr; /* Single column for content */
+    grid-gap: 20px;
+}
+
+/* Overview Cards */
+.overview-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Four cards in a row */
+    gap: 20px;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Details Section */
+.details-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two sections (chart and table) side by side */
+    grid-gap: 20px;
+}
+
+.chart,
+.table {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.chart-placeholder {
+    height: 200px;
+    background-color: #eaeaea;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #999;
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    justify-content: center; /* Centers text horizontally */
+    align-items: center;    /* Centers text vertically */
+    background-color: #333; /* Dark background for footer */
+    color: white;
+    padding: 10px;
+    height: 50px;           /* Fixed height for consistent layout */
+    position: relative;     /* Prevents overlap with other content */
+}

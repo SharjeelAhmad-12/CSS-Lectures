@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="logo">Dashboard</div>
+        <div class="user-menu">
+            <span class="user-name">Welcome, Admin</span>
+            <button class="logout-btn">Logout</button>
+        </div>
+    </header>
+
+    <!-- Container -->
+    <div class="dashboard-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <nav class="sidebar-nav">
+                <ul>
+                    <li><a href="#" class="nav-link">Dashboard</a></li>
+                    <li><a href="#" class="nav-link">Analytics</a></li>
+                    <li><a href="#" class="nav-link">Settings</a></li>
+                    <li><a href="#" class="nav-link">Profile</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Overview Cards -->
+            <section class="overview-cards">
+                <div class="card">Total Users<br><strong>1200</strong></div>
+                <div class="card">Revenue<br><strong>$15,000</strong></div>
+                <div class="card">Orders<br><strong>350</strong></div>
+                <div class="card">Feedback<br><strong>98%</strong></div>
+            </section>
+
+            <!-- Charts and Tables -->
+            <section class="details-section">
+                <div class="chart">
+                    <h2>Monthly Sales</h2>
+                    <div class="chart-placeholder">[Chart Placeholder]</div>
+                </div>
+                <div class="table">
+                    <h2>Recent Orders</h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Order ID</th>
+                                <th>Customer</th>
+                                <th>Status</th>
+                                <th>Amount</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>#001</td>
+                                <td>John Doe</td>
+                                <td>Completed</td>
+                                <td>$200</td>
+                            </tr>
+                            <tr>
+                                <td>#002</td>
+                                <td>Jane Smith</td>
+                                <td>Pending</td>
+                                <td>$350</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <p>&copy; 2025 Admin Dashboard. All rights reserved.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,198 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+a {
+    text-decoration: none;
+    color: #2980b9;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+/* Header Section */
+header {
+   
+    padding: 20px;
+    background-color: #2c3e50;
+    color: white;
+}
+
+header .logo h1 {
+    font-size: 24px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    font-size: 18px;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #e74c3c;
+}
+
+/* Hero Section */
+#hero {
+    background: url('https://via.placeholder.com/1200x600') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero-content h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    background-color: #e74c3c;
+    padding: 15px 30px;
+    font-size: 20px;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #c0392b;
+}
+
+/* About Section */
+#about {
+    padding: 40px 20px;
+    background-color: white;
+    text-align: center;
+}
+
+#about p {
+    font-size: 18px;
+    color: #7f8c8d;
+}
+
+/* Services Section */
+#services {
+    padding: 40px 20px;
+    background-color: #ecf0f1;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+
+.service {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    width: 30%;
+}
+
+.service h3 {
+    font-size: 24px;
+    color: #34495e;
+}
+
+.service p {
+    font-size: 16px;
+    color: #7f8c8d;
+}
+
+/* Portfolio Section */
+#portfolio {
+    padding: 40px 20px;
+    background-color: white;
+    text-align: center;
+}
+
+
+
+.portfolio-item {
+    width: 30%;
+}
+
+.portfolio-item img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.portfolio-item h3 {
+    font-size: 18px;
+    color: #34495e;
+    margin-top: 10px;
+}
+
+/* Contact Section */
+#contact {
+    padding: 40px 20px;
+    background-color: #ecf0f1;
+    text-align: center;
+}
+
+.contact-form {
+    width: 60%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.contact-form label {
+    font-size: 18px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact-form .submit-button {
+    background-color: #e74c3c;
+    color: white;
+    padding: 12px 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    
+}
+
+.contact-form .submit-button:hover {
+    background-color: #c0392b;
+}
+
+/* Footer Section */
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    font-size: 16px;
+}

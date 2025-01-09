@@ -1,0 +1,100 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Section */
+.header-section {
+    background-color: #2980b9;
+    color: white;
+    text-align: center;
+}
+
+.main-heading {
+    font-size: 40px;
+}
+
+.intro-text {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+/* Navigation Bar */
+.navigation-bar {
+    background-color: #34495e;
+    text-align: center;
+}
+
+.nav-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.nav-list li {
+    display: inline;
+    margin: 0 20px;
+}
+
+.nav-link {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #f39c12;
+}
+
+/* Content Sections */
+.content-section {
+    background-color: #fff;
+    color: #333;
+}
+
+.section-heading {
+    font-size: 30px;
+    color: #16a085;
+}
+
+.section-paragraph {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Home Section */
+.home-section {
+    background-color: #e7f5f7;
+}
+
+/* About Section */
+.about-section {
+    background-color: #f9ebd2;
+}
+
+/* Services Section */
+.services-section {
+    background-color: #f3f3f3;
+}
+
+.services-list {
+    list-style-type: square;
+}
+
+.service-item {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Footer Section */
+.footer-section {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+}
+
+.footer-text {
+    font-size: 14px;
+}

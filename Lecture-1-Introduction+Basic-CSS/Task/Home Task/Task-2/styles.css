@@ -1,0 +1,115 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header */
+.header {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+}
+
+.site-title {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.site-description {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #343a40;
+}
+
+.nav-list {
+    list-style-type: none;
+    text-align: center;
+}
+
+.nav-list li {
+    display: inline;
+}
+
+.nav-link {
+    color: #ffffff;
+    font-size: 18px;
+    display: inline-block;
+}
+
+.nav-link:hover {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+/* Product Section */
+.product-section {
+    background-color: #ffffff;
+    
+}
+
+.section-title {
+    font-size: 30px;
+    color: #007bff;
+    text-align: center;
+}
+
+.product-card {
+    background-color: #f1f1f1;
+    width: 300px;
+    border-radius: 5px;
+    text-align: center;    display: inline-block;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.product-card:hover {
+
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.product-image {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #007bff;
+}
+
+.product-name {
+    font-size: 24px;
+    color: #333;
+    
+}
+
+.product-description {
+    font-size: 16px;
+    color: #666;
+}
+
+.product-price {
+    font-size: 20px;
+    color: #007bff;
+    font-weight: bold;
+   
+}
+
+/* Footer */
+.footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+   
+}
+
+.footer-text {
+    font-size: 16px;
+}

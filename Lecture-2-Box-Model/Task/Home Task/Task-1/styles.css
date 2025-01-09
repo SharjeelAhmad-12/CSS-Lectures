@@ -1,0 +1,125 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #2980b9;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+/* Header Section */
+header {
+    background-color: #34495e;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.title {
+    font-size: 50px;
+    margin: 0;
+}
+
+.subtitle {
+    font-size: 20px;
+    margin-top: 10px;
+    font-style: italic;
+}
+
+.nav-list {
+    margin-top: 20px;
+}
+
+.nav-list li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-list li a {
+    font-size: 18px;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.nav-list li a:hover {
+    color: #e74c3c;
+}
+
+/* About Me Section */
+#about {
+    padding: 40px 20px;
+    background-color: white;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 30px;
+    color: #34495e;
+}
+
+.about-text {
+    font-size: 18px;
+    margin-top: 20px;
+    color: #7f8c8d;
+}
+
+/* Projects Section */
+#projects {
+    padding: 40px 20px;
+    background-color: #ecf0f1;
+    text-align: center;
+}
+
+.project {
+    margin-top: 20px;
+}
+
+.project h3 {
+    font-size: 24px;
+    color: #34495e;
+}
+
+.project p {
+    font-size: 16px;
+    color: #7f8c8d;
+}
+
+/* Contact Section */
+#contact {
+    padding: 40px 20px;
+    background-color: white;
+    text-align: center;
+}
+
+.contact-info {
+    list-style-type: none;
+    font-size: 16px;
+    color: #34495e;
+}
+
+.contact-info li {
+    margin-bottom: 10px;
+}
+
+/* Footer Section */
+footer {
+    background-color: #34495e;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    font-size: 16px;
+    margin: 0;
+}

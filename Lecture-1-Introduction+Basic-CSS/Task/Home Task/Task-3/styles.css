@@ -1,0 +1,112 @@
+/* Global Styles */
+body {
+    font-family: 'Verdana', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header */
+.header {
+    background-color: #008cba;
+    color: white;
+}
+
+.site-title {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.site-description {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #333;
+}
+
+.nav-list {
+    list-style-type: none;
+}
+
+.nav-list li {
+    display: inline;
+}
+
+.nav-link {
+    color: white;
+    font-size: 18px;
+    display: inline-block;
+}
+
+.nav-link:hover {
+    background-color: #008cba;
+    color: white;
+}
+
+/* Destination Section */
+.destination-section {
+    background-color: #ffffff;
+}
+
+.section-title {
+    font-size: 32px;
+    color: #008cba;
+    font-weight: bold;
+    text-align: center;
+}
+
+.destination-info {
+    display: inline-block;
+    width: 80%;
+    max-width: 1000px;
+    text-align: left;
+}
+
+.destination-image {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 5px;
+}
+
+.destination-description {
+    display: inline-block;
+    text-align: left;
+    max-width: 500px;
+}
+
+.destination-name {
+    font-size: 28px;
+    color: #333;
+}
+
+.description {
+    font-size: 16px;
+    color: #666;
+}
+
+.travel-price {
+    font-size: 22px;
+    color: #008cba;
+    font-weight: bold;
+
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    
+}
+
+.footer-text {
+    font-size: 16px;
+}
